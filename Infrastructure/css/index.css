@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-weight: 400;
+    /*font-size: 16px;*/
+    line-height: 1.7;
+    color: #777;
+  
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.header {
+    height: 25vh;
+    background-color: #00384d;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+.logo-box {
+    position: absolute;
+    top: 30%;
+    left: 10rem; }
+  
+.logo {
+    height: 4rem; 
+}
+.logotext {
+    position: absolute;
+    top: 25%;
+    left: 17%;
+ }
+  
+.text-logo {
+    color: #fff;
+    text-transform: uppercase;
+}
+  
+.text-logo-main {
+    display: block;
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+    word-spacing: 2px;
+    
+}
+  
+.text-logo-main-two {
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+}
+nav{
+    text-decoration: none;
+    width: 100%;
+    padding-bottom: 0;
+}
+nav ul{
+    float: right;
+    margin-right: 70px;
+    margin-top: 25px;
+}
+nav ul li{
+    display: inline-flex;
+    margin: 0 2px;
+    line-height: 80px;
+}
+nav ul li a{
+    color: white;
+    padding: 10px;
+    font-family: 'Tajawal', sans-serif;
+}
+.subm{
+    display: none;
+    position: absolute;
+    background-color: #00384d;
+    margin-top: 15px;
+    margin-right: -15px;
+}
+/*imag sec*/
+#imgsec{
+    min-height: 55vh;
+    background-color: #00384d;
+}
+.imgt{
+    width: 1300px;
+    height: 400px;
+    background-position: center;
+    padding-top: 5px;
+}
+#boxes{
+    background-color: #00384d;
+    padding:"20px"
+}
+
+#boxes{
+    color: white;
+}
+#boxes .box{
+    float: left;
+    width: 33%;
+    padding: 20px;
+    text-align: justify;
+}
+#boxes .box img{
+    padding-top: 20px;
+    width: 230px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.para{
+    font-size: 20px;
+    color: rgb(229, 233, 240);
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.parasub{
+    font-size: 15px;
+    font-family: 'Tajawal', sans-serif;
+}
+.btn{
+    background-color: rgb(194, 213, 241);
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding: 7px 10px 7px 10px;
+    margin-top: 10px;
+    border-radius: 12px;
+    font-weight: 700;
+    font-family:'Tajawal', sans-serif ;
+}
+.hr{
+    color: white;
+    width: 100%;
+    
+}
+footer{
+    padding: 20px;
+    color: #f4f4f4;
+    background-color: #00384d;
+    text-align: center;
+}
+
+.footer{
+    background-color: #00384d;
+}
+.footer ul{
+    display: inline;
+    padding: 10px;
+}
+.footer ul a{
+    color: white;
+    padding: 7px;
+    font-size: 12px;
+    float: left;
+    font-family: 'Tajawal', sans-serif;
+}
+.footer ul a::first-child{
+    margin-left: 100px;
+}
+.bot{
+    float: left;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-family: 'Tajawal', sans-serif;
+}
+.botleft{
+    float: right;
+    margin-right: 90px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-family: 'Tajawal', sans-serif;
+}
+@media(max-width:800px){
+    header #logo,header nav, header nav li, #boxes .box,.subm,
+    .footer ul a,.page-title,.para-a
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+        padding: 2px;
+    }
+    header{
+        padding-bottom: 20px;
+
+    }
+    .bot{
+        float: center;
+        margin-left: 30px;
+    }
+    .botleft{
+        float: center;
+        margin-right: 100px;
+    }
+   
+}
+/*about ooage*/
+#imgabout{
+    min-height: 28vh;
+    background-color: #023f55;
+}
+.imgabout-sec{
+    width: 1300px;
+    height: 200px;
+    background-position: center;
+    padding-top: 5px;
+}
+#main{
+    text-align: justify;
+    background-color: #00384d;
+    
+}
+.page-title{
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    word-spacing: 1.5px;
+    margin-top: 10px;
+}
+.para-ar{
+    color: rgb(255, 255, 255);
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18px;
+    padding: 20px;
+    margin:10px;
+}
+/*project*/
+.ongoing{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
